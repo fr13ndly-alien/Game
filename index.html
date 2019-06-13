@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>    
+    <style>
+        .center {
+            margin: auto;
+            width: 260px;
+            height: 300px;
+            padding: 10px;
+        }
+        .button {
+            border: 0;
+            background: #73AD21;
+            box-shadow: none;
+            border-radius: 0px;
+        }
+    </style>    
+</head>
+<body>
+    <div class="center"> 
+        <canvas id="myCanvas0" width="80" height="80" style="border:1px solid black;"onclick="canvasClicked(0)"></canvas>
+        <canvas id="myCanvas1" width="80" height="80" style="border:1px solid black;"onclick="canvasClicked(1)"></canvas>
+        <canvas id="myCanvas2" width="80" height="80" style="border:1px solid black;"onclick="canvasClicked(2)"></canvas>
+    </br>
+        <canvas id="myCanvas3" width="80" height="80" style="border:1px solid black;"onclick="canvasClicked(3)"></canvas>    
+        <canvas id="myCanvas4" width="80" height="80" style="border:1px solid black;"onclick="canvasClicked(4)"></canvas>
+        <canvas id="myCanvas5" width="80" height="80" style="border:1px solid black;"onclick="canvasClicked(5)"></canvas>
+    </br>
+        <canvas id="myCanvas6" width="80" height="80" style="border:1px solid black;"onclick="canvasClicked(6)"></canvas>
+        <canvas id="myCanvas7" width="80" height="80" style="border:1px solid black;"onclick="canvasClicked(7)"></canvas>
+        <canvas id="myCanvas8" width="80" height="80" style="border:1px solid black;"onclick="canvasClicked(8)"></canvas>        
+    </br>
+        <p>
+            <button class="button" onclick="playAgain()">Play Again</button>
+        </p>
+    </div>
+    <script src = "js/index.js"></script>
+</body>
+</html>
